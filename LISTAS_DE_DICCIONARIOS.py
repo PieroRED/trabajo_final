@@ -9,7 +9,7 @@ estudiantes = [
         "notas": ["Matemáticas:18", "Comunicación:17"],
         "anuncios": ["Traer material de arte el martes.", "Ensayo del día de la madre."]
     },
-    {
+    { #hola mundo
         "usuario": "Berenisse456",
         "contrasena": "abcd1",
         "nombre": "Berenisse Garcia",
