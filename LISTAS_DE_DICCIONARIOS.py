@@ -19,7 +19,7 @@ estudiantes = [
         "anuncios": ["Día del color rojo el viernes.", "Llevar juguete favorito el lunes."]
     }
 ]
-
+#hola mundo 2
 # Función para buscar estudiante
 def login(usuario, contrasena):
     for est in estudiantes:
