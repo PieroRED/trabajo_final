@@ -10,7 +10,7 @@ estudiantes = [
      ["Psicomotricidad:19", "Música:20"],
      ["Día del color rojo el viernes.", "Llevar juguete favorito el lunes."]]
 ]
-
+#est[4][0]
 # Función para buscar estudiante
 def login(usuario, contrasena):
     for est in estudiantes:
@@ -51,7 +51,7 @@ def registrar():
 
     nuevo = [usuario, contrasena, nombre, grado, [], [], []]
     estudiantes.append(nuevo)
-    print("✅ Registro exitoso.")
+    print(" Registro exitoso.")
     mostrar_info(nuevo)
 
 # Función para mostrar la información
