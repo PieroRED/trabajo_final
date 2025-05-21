@@ -74,6 +74,7 @@ def registrar():
     mostrar_info(nuevo_estudiante)
 
 # Función para mostrar la información
+# La función muestra la información de un estudiante, incluyendo su nombre, grado, horario, notas y anuncios.
 def mostrar_info(est):
     print("\n=== Información del Estudiante ===")
     print("Nombre:", est["nombre"])
