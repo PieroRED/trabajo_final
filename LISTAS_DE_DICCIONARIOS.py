@@ -90,6 +90,7 @@ def mostrar_info(est):
         print("-", anuncio)
 
 # Menú principal
+# El código permite iniciar sesión con 3 intentos o registrar un nuevo estudiante
 print("1. Iniciar sesión")
 print("2. Registrar nuevo estudiante")
 opcion = input("Elige una opción (1 o 2): ")
