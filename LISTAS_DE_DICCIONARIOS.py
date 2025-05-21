@@ -28,6 +28,7 @@ def login(usuario, contrasena):
     return None
 
 # Función para registrar nuevo estudiante con validaciones
+# La función registra un nuevo usuario validando que el nombre y la contraseña cumplan ciertas reglas
 def registrar():
     while True:
         usuario = input("Nuevo usuario: ").strip()
