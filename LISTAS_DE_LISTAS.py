@@ -32,6 +32,9 @@ def registrar():
             print("Ese usuario ya existe. Intenta con otro.")
         else:
             break
+#El método .strip() elimina los espacios en blanco al inicio y al final de la cadena.
+#any(...) La función any() en Python devuelve True si al menos uno de los elementos es True.
+#c.isalpha() Este es un método de las cadenas (str) que verifica si el carácter c es una letra del alfabeto (ya sea mayúscula o minúscula).
 
     while True:
         contrasena = input("Nueva contraseña: ").strip()
